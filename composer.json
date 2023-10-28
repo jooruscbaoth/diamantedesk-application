@@ -21,7 +21,10 @@
     ],
     "config": {
         "component-dir": "web/bundles/components",
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "foxy/foxy": true
+        }
     },
     "require":{
         "php": ">=5.4.4",
